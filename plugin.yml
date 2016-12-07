@@ -1,0 +1,4 @@
+name: BasicPlugin
+main: YourUsername\YourPluginName\Main
+version: 1.0.0
+api: [2.0.0]
