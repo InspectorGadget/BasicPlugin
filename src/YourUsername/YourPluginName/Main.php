@@ -1,6 +1,6 @@
 <?php // NEVER FORGET THIS, this means youre telling the server this is a PHP file!
 
-namespace YourPluginName; // Only your directory name! Never forget this!
+namespace YourUsername\YourPluginName; // Only your directory name! Never forget this!
 
 use pocketmine\Server; // acts as youre calling the server
 use pocketmine\Player; // acts as youre calling the player
