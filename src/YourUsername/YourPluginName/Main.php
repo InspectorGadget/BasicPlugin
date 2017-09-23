@@ -16,7 +16,7 @@ class Main extends PluginBase implements Listener {
 		$this->getServer()->getPluginManager()->registerEvents($this, $this); // acts as a event register stuff
 	{
 	
-	public function onCommand(CommandSender $sender, Command $cmd, $label, array $args) { // this line will never change unless you are a pro!
+	public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args): bool { // this line will never change unless you are a pro!
 		switch(strtolower($cmd->getName())) { // means you are starting to let the server know this is a command..
 			
 			case "hi": // command /hi
