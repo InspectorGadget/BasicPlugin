@@ -12,9 +12,10 @@ use pocketmine\event\Listener; // acts as a ear to listen your command!
 class Main extends PluginBase implements Listener {
 // Main means your file name, may be vary!
 	
-	public function onEnable() { // means what to do on start!
-		$this->getServer()->getPluginManager()->registerEvents($this, $this); // acts as a event register stuff
-	{
+	public function onEnable()
+    { // means what to do on start!
+        $this->getServer()->getPluginManager()->registerEvents($this, $this); // acts as a event register stuff
+    }
 	
 	public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args): bool { // this line will never change unless you are a pro!
 		switch(strtolower($cmd->getName())) { // means you are starting to let the server know this is a command..
