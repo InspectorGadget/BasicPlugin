@@ -1,0 +1,17 @@
+name: BasicPlugin
+version: 1.0.0
+main: YourUsername\YourPluginName\Main
+api: 3.0.0
+author: YourUsername
+commands:
+  hello:
+    description: "Just a Hello Command!"
+    permission: basicplugin.command
+permissions:
+  basicplugin:
+    default: op # This means only OP or Person who has the perm can use this command
+    description: "Basic Plugin Root Permission"
+    children:
+      basicplugin.command:
+        default: op
+        description: "Basic Plugin Command Permission"
